@@ -20,11 +20,38 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+//Ipad Landscape
+@media only screen and (max-width: 1024px) {
 
     .container {
         #title {
-            font-size: 2em;
+            font-size: 4em;
+            font-weight: bold;
+
+        }
+    }
+
+}
+
+//Ipad Portrait
+@media only screen and (max-width: 768px) {
+
+    .container {
+        #title {
+            font-size: 4em;
+            font-weight: bold;
+
+        }
+    }
+
+}
+
+//Mobile
+@media only screen and (max-width: 480px) {
+
+    .container {
+        #title {
+            font-size: 1.8em;
             font-weight: bold;
 
         }
