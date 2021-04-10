@@ -10,13 +10,19 @@
 body {
   background-image: url("./pexels-tobias-bjørkli-2335126.jpg");
   /* Set a specific height */
-  min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #4d4b4b;
+  content: '';
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+  z-index: -1;
   background-blend-mode: multiply;
 }
 
@@ -180,6 +186,7 @@ footer {
   padding: 10px;
   font-weight: bolder;
   color: white;
+  background-color: black;
 }
 
 @media only screen and (max-width: 480px) {
@@ -334,7 +341,6 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: black;
   }
 }
 /*# sourceMappingURL=style.css.map */
