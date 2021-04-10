@@ -190,7 +190,21 @@ footer {
 @media only screen and (max-width: 480px) {
 
     body {
-        background-color: #8a7979;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        content: '';
+        height: 100%;
+        left: 0;
+
+        top: 0;
+        width: 100%;
+        will-change: transform;
+        z-index: -1;
+        background-blend-mode: multiply;
+        background-color: #979595;
         background-blend-mode: multiply;
     }
 
@@ -209,7 +223,7 @@ footer {
 
 
                 &:first-child {
-                  
+
 
                     div {
 
@@ -226,7 +240,7 @@ footer {
                             text-align: center;
                             margin: auto;
                             margin-top: auto;
-                           //padding: 20%;
+                            padding: 20%;
                             //margin-top: -50px;
                         }
 
@@ -242,7 +256,7 @@ footer {
 
                 &:nth-child(2) {
                     div {
-                       // margin: -40px 10px 0 10px;
+                         margin: -40px 10px 0 10px;
                         display: flex;
                         justify-content: left;
                         align-items: center;
@@ -303,7 +317,7 @@ footer {
         .box {
             width: 600px;
             height: 100px;
-           
+
             text-align: center;
 
         }

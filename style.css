@@ -201,7 +201,19 @@ footer {
 
 @media only screen and (max-width: 480px) {
   body {
-    background-color: #8a7979;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+    background-blend-mode: multiply;
+    background-color: #979595;
     background-blend-mode: multiply;
   }
   nav {
@@ -246,11 +258,13 @@ footer {
     text-align: center;
     margin: auto;
     margin-top: auto;
+    padding: 20%;
   }
   nav ul li:first-child div a {
     color: white;
   }
   nav ul li:nth-child(2) div {
+    margin: -40px 10px 0 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
