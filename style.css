@@ -222,9 +222,6 @@ footer {
   nav ul li {
     list-style-type: none;
   }
-  nav ul li:first-child {
-    margin: 0;
-  }
   nav ul li:first-child div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -249,15 +246,11 @@ footer {
     text-align: center;
     margin: auto;
     margin-top: auto;
-    padding: 20%;
-    margin-top: -50px;
   }
   nav ul li:first-child div a {
-    margin: -90px 10px 0 10px;
     color: white;
   }
   nav ul li:nth-child(2) div {
-    margin: -40px 10px 0 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -308,7 +301,6 @@ footer {
   .flex .box {
     width: 600px;
     height: 100px;
-    margin: 0;
     text-align: center;
   }
   .flex .box-1,
@@ -324,6 +316,12 @@ footer {
     border: none;
   }
   .flex .box-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border: none;
   }
   .flex .box-1 p {
