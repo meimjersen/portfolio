@@ -255,7 +255,7 @@ footer {
     color: #fff;
   }
   .container {
-    height: 80vh;
+    height: 20vh;
     padding: 2%;
   }
   .container .title {
@@ -289,7 +289,7 @@ footer {
   }
   .flex .box {
     width: 600px;
-    height: 300px;
+    height: 100px;
     margin: 0;
   }
   .flex .box-1,
@@ -334,6 +334,7 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+    background-color: black;
   }
 }
 /*# sourceMappingURL=style.css.map */
