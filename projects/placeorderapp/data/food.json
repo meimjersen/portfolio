@@ -1,0 +1,35 @@
+{
+  "foods": [{
+      "id": 1,
+      "name": "Milk"
+    },
+    {
+      "id": 2,
+      "name": "Winter Melon"
+    },
+    {
+      "id": 3,
+      "name": "Cookies and Cream"
+    },
+    {
+      "id": 4,
+      "name": "Dark Choco"
+    },
+    {
+      "id": 5,
+      "name": "Salted Caramel"
+    },
+    {
+      "id": 6,
+      "name": "Red Velvet"
+    },
+    {
+      "id": 7,
+      "name": "Cheesecake"
+    },
+    {
+      "id": 8,
+      "name": "Oreo"
+    }
+  ]
+}

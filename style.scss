@@ -148,6 +148,20 @@ nav {
             line-height: 75px;
             font-weight: bolder;
             padding: 4%;
+            order: 2;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            padding: 0%;
+            order: 1;
+            text-align: left;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
         }
 
     }
@@ -194,7 +208,7 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        
+
         content: '';
         height: 100%;
         left: 0;
@@ -256,7 +270,7 @@ footer {
 
                 &:nth-child(2) {
                     div {
-                         margin: -40px 10px 0 10px;
+                        margin: -40px 10px 0 10px;
                         display: flex;
                         justify-content: left;
                         align-items: center;
@@ -310,13 +324,13 @@ footer {
     }
 
     .flex {
-        height: 100vh;
+        height: 200vh;
         justify-content: flex-start;
         align-items: flex-start;
 
         .box {
             width: 600px;
-            height: 100px;
+            height: 400px;
 
             text-align: center;
 
@@ -333,16 +347,24 @@ footer {
 
         .box-1 {
 
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             border: none;
 
             p {
-
+                order: 1;
                 font-size: 2em;
                 line-height: 35px;
                 font-weight: bolder;
                 padding: 4%;
+            }
+
+            .list {
+                display: flex;
+                flex-direction: column;
+            
+                order: 2;
+
             }
 
         }

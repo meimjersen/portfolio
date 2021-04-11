@@ -1,0 +1,199 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mystyle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  text-align: left;
+  margin: 2%;
+  bottom: 0;
+  position: absolute;
+}
+
+.container-output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
+}
+
+.container-output #form-container div {
+  padding: 2%;
+}
+
+.container-output #form-container div input,
+.container-output #form-container div select {
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.container-output #form-container button {
+  border: none;
+  padding: 8px 10px;
+  margin: 2px 0px 0 4px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.container-output #output .title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #820e0e;
+}
+
+.container-output #output-one .title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #07530b;
+}
+
+.container-output #output .container,
+.container-output #output-one .container {
+  margin: 10px 0;
+}
+
+.container-output #output .container p,
+.container-output #output .container button,
+.container-output #output-one .container p,
+.container-output #output-one .container button {
+  margin: 6px 0;
+}
+
+.container-output #output .container p:nth-child(1),
+.container-output #output-one .container p:nth-child(1) {
+  opacity: 50%;
+}
+
+.container-output #output .container p:nth-child(2),
+.container-output #output-one .container p:nth-child(2) {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.container-output #output .container p:nth-child(2):hover,
+.container-output #output-one .container p:nth-child(2):hover {
+  color: #351717;
+}
+
+.container-output #output .container button,
+.container-output #output-one .container button {
+  border: none;
+  margin: 2px 0px 0 0;
+  padding: 2%;
+}
+
+.container-output #output .container #delete-order,
+.container-output #output-one .container #delete-order {
+  color: white;
+  margin: 2px 6px 0 0px;
+  background-color: #861b1b;
+  cursor: pointer;
+}
+
+.container-output #output .container #complete,
+.container-output #output-one .container #complete {
+  color: white;
+  background-color: #1b861b;
+  cursor: pointer;
+}
+
+.container-output #output .container #delete-order:hover,
+.container-output #output .container #complete:hover,
+.container-output #output-one .container #delete-order:hover,
+.container-output #output-one .container #complete:hover {
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    text-align: left;
+    margin: 4%;
+    bottom: 0;
+    position: absolute;
+  }
+  .container-output {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 5%;
+  }
+  .container-output #form-container div {
+    padding: 2%;
+  }
+  .container-output #form-container div input,
+  .container-output #form-container div select {
+    padding: 8px 10px;
+    width: 100%;
+  }
+  .container-output #form-container button {
+    border: none;
+    padding: 8px 10px;
+    margin: 2px 0px 0 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .container-output #output .title,
+  .container-output #output-one .title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .container-output #output .container,
+  .container-output #output-one .container {
+    margin: 10px 0;
+  }
+  .container-output #output .container p,
+  .container-output #output .container button,
+  .container-output #output-one .container p,
+  .container-output #output-one .container button {
+    margin: 6px 0;
+  }
+  .container-output #output .container p:nth-child(2),
+  .container-output #output-one .container p:nth-child(2) {
+    cursor: pointer;
+  }
+  .container-output #output .container button,
+  .container-output #output-one .container button {
+    border: none;
+    margin: 2px 0px 0 0;
+    padding: 2%;
+  }
+  .container-output #output .container #delete-order,
+  .container-output #output-one .container #delete-order {
+    color: white;
+    margin: 2px 6px 0 0px;
+    background-color: #861b1b;
+  }
+  .container-output #output .container #complete,
+  .container-output #output-one .container #complete {
+    color: white;
+    background-color: #1b861b;
+  }
+  .container-output {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2%;
+  }
+  #output,
+  #output-one {
+    padding: 4px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
