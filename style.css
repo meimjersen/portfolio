@@ -186,7 +186,7 @@ nav ul li:nth-child(2) div p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0%;
+  padding: 5%;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -378,6 +378,7 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 5%;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
